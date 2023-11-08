@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net" modified="2023-11-08T13:39:38.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" etag="Rs-1FP75x5PXSGn3LSlZ" version="21.8.2" type="device">
+  <diagram name="Página-1" id="dLB5vnzD2LJvHeZcBGOX">
+    <mxGraphModel dx="839" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V2-iXqxdeqNSfpezFBtW-2" target="V2-iXqxdeqNSfpezFBtW-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="590" />
+              <mxPoint x="650" y="680" />
+              <mxPoint x="410" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="V2-iXqxdeqNSfpezFBtW-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="220" as="targetPoint" />
+            <mxPoint x="200.29999999999995" y="551.5285714285714" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="100" y="600" />
+              <mxPoint x="100" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-2" value="valorDaEntrada&amp;gt;0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="308.25" y="539" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V2-iXqxdeqNSfpezFBtW-4" target="V2-iXqxdeqNSfpezFBtW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-4" value="valorDaEntrada" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="319" y="370" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V2-iXqxdeqNSfpezFBtW-5" target="V2-iXqxdeqNSfpezFBtW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-5" value="somatorio=somatorio +valorDaEntrada" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="303" y="190" width="220.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V2-iXqxdeqNSfpezFBtW-6" target="V2-iXqxdeqNSfpezFBtW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-6" value="valorDoDenominador = valorDoDenominador +1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="271.5" y="450" width="285" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-7" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Entre com um número para a soma dos termos positivos&quot;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="290" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V2-iXqxdeqNSfpezFBtW-8" target="V2-iXqxdeqNSfpezFBtW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-8" value="&lt;div&gt;&amp;nbsp;valorDoDenominador= 0&lt;/div&gt;&lt;div&gt;valorDaEntrada=0&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;somatorio=0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;resultado = 0&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="100" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.495;entryY=0.267;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="V2-iXqxdeqNSfpezFBtW-7" target="V2-iXqxdeqNSfpezFBtW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-15" value="V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="225" y="538" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V2-iXqxdeqNSfpezFBtW-17" target="V2-iXqxdeqNSfpezFBtW-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-17" value="&amp;nbsp;resultado = Mt.arredondar(somatorio/(valorDoDenominador-1), 3)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="730" width="358.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-18" value="&quot;Valor negativo encontrado!!&quot;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="800" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V2-iXqxdeqNSfpezFBtW-19" target="V2-iXqxdeqNSfpezFBtW-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-19" value="&quot; A média da soma dos termos positivos&quot;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="860" width="286.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-23" value="F" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="535" y="538" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.524;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="V2-iXqxdeqNSfpezFBtW-18" target="V2-iXqxdeqNSfpezFBtW-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V2-iXqxdeqNSfpezFBtW-30" target="V2-iXqxdeqNSfpezFBtW-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-30" value="somatorio, &quot;/ &quot;, valorDoDenominador-1, &quot;&amp;nbsp; é:&quot;, resultado" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="930" width="346.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-32" value="Fim" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354.25" y="1010" width="106" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="V2-iXqxdeqNSfpezFBtW-40" target="V2-iXqxdeqNSfpezFBtW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2-iXqxdeqNSfpezFBtW-40" value="Inicio&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="20" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
